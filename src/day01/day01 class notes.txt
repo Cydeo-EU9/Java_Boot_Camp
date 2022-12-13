@@ -31,3 +31,20 @@ Topics:
         28. Collections: List, Set, Queue
         29. Iterable & Iterator
         30. Maps
+
+
+1. Primitives: int, double, char, boolean
+			   byte, short, int long, float, double
+			   char, boolean
+
+2. Primitive Type Castings: Implicit vs Explicit
+			
+			1. implicit casting: casting smaller primitive type to larger 
+			2. explicit casting: casting larage primitive type to smaller (Explicitly)
+
+
+3. Wrapper class: the objects that represents the primitives
+
+
+
+
