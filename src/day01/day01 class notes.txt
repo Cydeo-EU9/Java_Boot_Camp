@@ -175,6 +175,12 @@ Topics:
 
 
 
+15. Access Modifiers:
+			
+			public: Always accessible at everywhere
+			protected: Always visible within same package. Accesible outside packages to sub classes ONLY
+			default: Always visible within same package. Not accessible outside the package
+			private: Accessible within same class ONLY
 
 
 
