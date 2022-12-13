@@ -131,8 +131,47 @@ Topics:
 	 		super()
 
 
-come back at 2:15 PM US EST
+12. Class & Objects:
+			
+			Class: where the objects came from, A template for objects. no memory is allocated
 
+			Object: an instance of a class. each object has its own memory
+
+13. Static vs Instance: one copy vs multiple copies
+			
+			static: belong to the class
+
+			instance: belong to the objects
+
+
+			ConfigurationReader:
+				static Properties peroperty;
+
+				static{
+					File input tream...
+					load the prperties...
+				}
+
+			Driver:
+				static WebDriver driver;
+
+				getDriver(){
+
+				}
+
+
+14. Import Statements:
+		
+		regualr import:
+
+				import packageInfo.classInfo;
+
+
+		static import:
+
+				import static packageInfo.classInfo.staticMember;
+
+				import static packageInfo.classInfo.*;
 
 
 
