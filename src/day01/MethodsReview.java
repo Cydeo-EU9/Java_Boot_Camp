@@ -34,7 +34,7 @@ public class MethodsReview {
     }
 
 
-    public static void printEach(int[] arr){
+    private static void printEach(int[] arr){
         for (int each : arr) {
             System.out.println(each);
         }
@@ -52,10 +52,11 @@ public class MethodsReview {
         }
     }
 
-    public static void printEach(char[] arr){
+    public int printEach(char[] arr){
         for (char each : arr) {
             System.out.println(each);
         }
+        return 0;
     }
 
 
