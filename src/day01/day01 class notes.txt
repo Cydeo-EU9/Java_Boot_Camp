@@ -184,10 +184,24 @@ Topics:
 
 
 
-16. OOP Encapsulations: 
+16. OOP Encapsulations: hiding the data by giving private access modifier
+						
+						use public getter & setters to read/write the data.
+
+						TO HAVE COMPLETE CONTROL OF DATA
+
+						getter: read ONLY. public instance method
+								Return type is same with the Data Type of private variable
+								Has no parameter
+
+						setter: Write ONLY. public instance method
+								return type is void
+								Passes a parameter
+
+			In my framework:
+				POJO
 
 
-come back at 3:25 pm US EST
 
 
 
