@@ -5,6 +5,8 @@ public class MethodsReview {
 
     public static void main(String[] args) {
 
+        MethodsReview obj = new MethodsReview();
+
         String str1 = "Cydeo";
         printEach(str1);
 

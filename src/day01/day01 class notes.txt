@@ -77,9 +77,69 @@ Topics:
 			}
 
 
-	break:
+	break: exits the loop or switch
 
-	continue
+	continue: jumps to the next iteration of loop
+
+	return: exits the current methods
+
+
+7. Array: supports primitives & non-primitives
+		  size is fixed
+		  has index
+		  can be multi-dimensional
+
+
+8. for each loop: number of iteratiosn & iteration orders are fixed
+				  There must be a data structure
+
+
+9. Custom Methods: Function
+				   grouping a series of code fragments that can perform a specific task
+				   improves the reusability of codes
+
+
+			   public static  void/anyDataType   methodName(Parameters){
+			   		code fragments that can perform the task
+			   }
+
+
+10. Method Overloading: multiple methods having same method names in a class
+
+						PARAMETERS MUST BE DIFFERENT
+
+
+11. Constructor: every class must have constructor
+				 used for creating objects
+				 execution depedns on the object
+
+
+			 In my framework:
+
+			 		BasePage
+			 			public BasePage(){
+			 				PageFactory.intiElement(driver, this);
+			 			}
+
+			 		
+			 		HomePage extends BasePage
+
+			 		@FindBy
+
+
+	 		this()
+	 		super()
+
+
+come back at 2:15 PM US EST
+
+
+
+
+
+
+
+
 
 
 
