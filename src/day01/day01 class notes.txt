@@ -64,12 +64,22 @@ Topics:
 
 
 
-6. Loops: for & while
+6. Loops: repeated action
+		
+		for: if the number of repetition is known
+			for(init; condition; iterator){
+				statements
+			}
+
+		while: to repeat for unknown number of times
+			while(condition){
+				statements
+			}
 
 
+	break:
 
-come back at: 11:22 AM US EST
-
+	continue
 
 
 
