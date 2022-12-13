@@ -46,5 +46,32 @@ Topics:
 3. Wrapper class: the objects that represents the primitives
 
 
+4. String: immutable version of char sequences
+		
+		"Cydeo "
+		 012345
+
+		 'Z' != 'z'
+
+		 Methods: charAt, length, trim, lower & upper case, replace, substring, equals, equalsIgnoreCase, split, toCharArray
+
+
+5. StringBuilder vs StringBuffer: mutable char sequences
+		
+		StringBuilder: Not Synchronized
+
+		String Buffer: Synchronized
+
+
+
+6. Loops: for & while
+
+
+
+
+
+
+
+
 
 
