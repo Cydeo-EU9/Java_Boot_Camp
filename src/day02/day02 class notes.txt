@@ -1,4 +1,4 @@
-Java Bootcamp Day01
+Java Bootcamp Day02
 
 Topics:
 		17. OOP Inheritance
