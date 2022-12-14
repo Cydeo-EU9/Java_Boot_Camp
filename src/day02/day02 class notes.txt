@@ -200,6 +200,86 @@ Topics:
         ( (JavaScriptExecuter) driver ).executeScript()
 
 
+Errors: due to the lack of resource
+
+24.Exceptions: unexpected event. something went wrong. recoverable
+
+        checked exception: occurs during compile time
+
+                            requires immediate attention
+
+        unchecked exception: occurs during runtime only
+
+
+        
+        WebDriver driver = new FireFoxDrive();
+
+        Exceptiosn that I have faced:
+                StaleElementExceptions
+                TimeoutExceptions
+                NoSuchElementException
+                WebDriverException
+                NullPointerException
+                .....
+
+
+25. Exception Hanldings:
+        
+        1. try & catch: for both checked and unchecked exceptions. used inside a block
+
+                try{
+                    exception code
+                }catch(ExceptionType){
+                    printStackTrace()
+                }finally{
+
+                }
+
+
+        2. throws: for checked exceptiosn only. within the method signature
+
+
+
+throw: used for creating exceptions manually
+
+
+
+
+26. final vs finally vs finalize:
+        
+        final: keyword. can be used for variables, methods, and class.
+
+        finally: Block. can be used with try & catch
+
+        finalize: method. used by garbage collector to remove unreferenced objects from the heap
+
+
+ 27. garbage collection & garbage collector:
+
+            garbage collection: collection of unreferenced object
+
+            garbage collector: process of removing unreferenced objects from the heap
+
+
+            driver =new ChromerDriver();
+
+            driver = null;
+
+
+ 28. Collections: List, Set, Queue
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
