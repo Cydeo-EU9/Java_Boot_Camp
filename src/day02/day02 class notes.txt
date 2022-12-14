@@ -18,4 +18,105 @@ Topics:
 
 
 
-        
+17. OOP Inheritance: Building IS A relationship between classes (parent/child)
+            
+
+        ClassA extends ClassB
+
+        ClassC extends ClassB
+
+        ClassD extends ClassC
+
+        sub-class: Inherits the accessible variables and methods from super class.
+                   Can have its own unique variables and methods
+
+
+        super-class: Inherits NOTHING from sub-class.
+                    Can only contain common variables and methods of all sub classes
+
+
+        A class can extend one class ONLY
+
+        A class can implement MULTIPLE interfaces
+
+
+        In My framework:
+
+                TestBase:
+
+                        driver
+                        action
+
+                        response
+                        url..
+
+                        @BeforeMethod
+                        setUp(){
+                            open browser
+                            maximize browser
+                            login...
+
+                        }
+
+                        @AferMethod
+                        tearDown(){
+                                quit
+                                resport
+                        }
+
+
+                TestCasesClass1 extends TestBase
+
+                        @Test
+
+                TestCasesClass2 extends TestBase
+
+
+                TestCasesClass3 extends TestBase
+
+
+                TestCasesClass4 extends TestBase
+
+
+        In My framework:
+
+            BasePage
+                BasePage(){
+                    PageFactory.initElement(driver, this)
+                }
+
+                login()
+
+                ...
+
+            HomePage extends BasePage
+
+            page2 extends BasePage
+
+            page3 extends BasePage
+
+            ....
+
+
+18 Method overriding: Giving different implementations to the method
+                      MUST happen in sub class
+
+                      Access Modifier must be same or more visible
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
