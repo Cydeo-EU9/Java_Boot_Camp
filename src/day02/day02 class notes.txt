@@ -270,9 +270,83 @@ throw: used for creating exceptions manually
 
 
 
+29. Collection: Size is dynamic
+                Only supports non-primitives
+                Ready methods
+
+
+                List: Accepts Duplicates. Has index numbers
+
+                    ArrayList: array based class, searching/retreating of the element is faster
+
+                    LinkedList: node based class, adding/removing of the element is faster
+
+                    Vector: array absed class. synchronized ===> Thread-safe  ===> slower
+
+                    Stack: array absed class.  synchronized ===> Thread-safe  ===> slower. LIFO
 
 
 
+                Set: Does not accept duplicates. does not have index numbers
+
+                    HashSet: Random order
+
+                    LinkedHashSet: Insertion order
+
+                    TreeSet: Sorted order
+
+
+                Queue: Accepts Duplicates, does not have index. FIFO
+
+
+
+                In My faramework:
+                    List<WebElement>
+
+                    List<Map<String, Object>>
+
+                    Set<String> windows= getWindowHandles();
+
+                    Set<WebElements> dropDownElements
+
+
+29. Iterable & Iterator: used for removing objects while looping the collection
+            
+            hasNext()
+            next()
+            remove()
+
+    removeIf()
+
+
+30. Maps: collection of pairs. ( key & value ). key can not be duplicated
+          Size is dynamic
+          Only supports non-primitive data types
+
+
+          HashMap: random order. accepts null key and null values
+
+          LinkedHashMap: Insertion order.  accepts null key and null values
+
+          HashTable: random order. does not accept null. synchronized ===> Thread-safe  ===> slower
+
+          TreeMap: sorted order. key can not be null, values can be null
+
+          In My framework:
+                properties file
+                JSon file
+
+
+url = wwww.gmail.com
+browser = chrome
+
+
+
+"employee1"{
+    "name": "James"
+    "salary": 100000
+    "married": False
+}
 
 
 
