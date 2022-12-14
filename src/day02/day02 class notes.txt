@@ -42,7 +42,7 @@ Topics:
 
         In My framework:
 
-                TestBase:
+                abstract TestBase:
 
                         driver
                         action
@@ -51,7 +51,7 @@ Topics:
                         url..
 
                         @BeforeMethod
-                        setUp(){
+                        final setUp(){
                             open browser
                             maximize browser
                             login...
@@ -63,6 +63,9 @@ Topics:
                                 quit
                                 resport
                         }
+
+
+                        createSpecialReport();
 
 
                 TestCasesClass1 extends TestBase
@@ -80,12 +83,12 @@ Topics:
 
         In My framework:
 
-            BasePage
+            abstract BasePage
                 BasePage(){
                     PageFactory.initElement(driver, this)
                 }
 
-                login()
+                final login()
 
                 ...
 
@@ -105,6 +108,46 @@ Topics:
 
 
                       driver.get()
+
+19. Final keyword: fixed/ unchangable
+        
+        variable: can not re-assigned
+
+        method: can not be overriden
+
+        class: can not be inherited
+
+
+20. OOP Abstraction: hinding the impelementation details
+                     putting the focus on the essentials without worrying about the details
+
+                     abstract method: method without the body.
+                                      Meant to be overriden
+
+                2.  Ways:
+                    1. Abstract class: meant to be a parent class
+                                       can not be instantiated
+
+                    2. Interface: blueprint of the class
+                                  used for provoding additional methods to the classes that needs
+                                  meant to be implement
+
+
+                                  variables: static & final variable ONLY
+
+                                  methods: abstract methods, static methods, default methods
+
+
+              In my framework:
+
+                    abstract class: BasePage, TestBase
+
+                    interface: 
+                            Map, List, Set...
+                            JavaScriptExecuter, WebDriver, TakeScreenShot...
+
+
+                            
 
 
 
