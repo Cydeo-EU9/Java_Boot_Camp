@@ -147,18 +147,57 @@ Topics:
                             JavaScriptExecuter, WebDriver, TakeScreenShot...
 
 
-                            
+
+
+22. OOP Polymorphism: object taking on many forms
+                        
+                        parent class/interface can reference to its any child objects
+
+                        Reference Type decides what can accessed through the referance variable
+
+
+                    In my farmework:
+
+                        Driver:
+
+                            WebDriver driver;
+
+                            WebDriver getDriver()
+
+
+                        Driver (without polymorphism):
+
+                            ChromeDriver chrome;
+
+                            FriefoxDriver firefox;
+                            ....
+
+                            getChromeDriver();
+
+                            getFirefoxDriver();
+
+                            ......
+
+            List list =
+
+            Map map = 
+
+
+23. Reference Type Castings: There must be inheritance
+
+        up-casting: casting smaller refrence type to larger (implicitlydone)
+
+                    to be able to assign any child objects to the parent reference type
+
+        down-casting:  casting larger reference type to smaller. (explicitly done)
+
+                        To be able to access the members of object type
 
 
 
-
-
-
-
-
-
-
-
+        WebDriver driver = new Opera();
+        ( (TakeScreenShot) driver ).takescreenshot()
+        ( (JavaScriptExecuter) driver ).executeScript()
 
 
 
